@@ -1,15 +1,15 @@
 @font-face {
     font-family: Kollektif;
-    src: url(./fonts/kollektif/Kollektif.ttf);
+    src: url(../fonts/kollektif/Kollektif.ttf);
 }
 
 @font-face {
     font-family: Krylon;
-    src: url(./fonts/krylon/Krylon-Regular.woff);
+    src: url(../fonts/krylon/Krylon-Regular.woff);
 }
 
 html{
-    background-image: url(./imgs/deuslove.jpg);
+    background-image: url(../imgs/deuslove.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -28,7 +28,7 @@ h3, h4{
 
 .chp1{
     height: auto;
-    background: url(./imgs/deuslove.jpg);
+    background: url(../imgs/deuslove.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -41,7 +41,7 @@ h3, h4{
 
 .chp2{
     height: auto;
-    background: url(./imgs/preg.jpg);
+    background: url(../imgs/preg.jpg);
     background-size: cover;
     background-position: center;
 }
