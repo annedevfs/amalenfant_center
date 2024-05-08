@@ -1,16 +1,16 @@
 @font-face {
     font-family: Kollektif;
-    src: url(./fonts/kollektif/Kollektif.ttf);
+    src: url(../fonts/kollektif/Kollektif.ttf);
 }
 
 @font-face {
     font-family: Kollektif-Bold;
-    src: url(./fonts/kollektif/Kollektif-Bold.ttf);
+    src: url(../fonts/kollektif/Kollektif-Bold.ttf);
 }
 
 @font-face {
     font-family: Krylon;
-    src: url(./fonts/krylon/Krylon-Regular.woff);
+    src: url(../fonts/krylon/Krylon-Regular.woff);
 }
 
 body{
@@ -28,7 +28,7 @@ body{
 
 .l1x{
     height: 1000px;
-    background-image: url(./imgs/atex.jpeg);
+    background-image: url(../imgs/atex.jpeg);
     background-size: cover;
     background-position: center;
 
@@ -40,7 +40,7 @@ body{
 }
 
 .x1{
-    background-image: url(./imgs/bo1.jpg);
+    background-image: url(../imgs/bo1.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -48,7 +48,7 @@ body{
 
 
 .x2{
-    background-image: url(./imgs/bo2.jpg);
+    background-image: url(../imgs/bo2.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -57,7 +57,7 @@ body{
 
 
 .x3{
-    background-image: url(./imgs/bo3.jpg);
+    background-image: url(../imgs/bo3.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -66,7 +66,7 @@ body{
 
 
 .x4{
-    background-image: url(./imgs/bo5.jpg);
+    background-image: url(../imgs/bo5.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -74,7 +74,7 @@ body{
 
 
 .x5{
-    background-image: url(./imgs/bo6.jpg);
+    background-image: url(../imgs/bo6.jpg);
     background-size: cover;
     height: 100%;
     width: 100%;
