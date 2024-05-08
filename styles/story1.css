@@ -1,16 +1,16 @@
 @font-face {
     font-family: Kollektif;
-    src: url(./fonts/kollektif/Kollektif.ttf);
+    src: url(../fonts/kollektif/Kollektif.ttf);
 }
 
 @font-face {
     font-family: Kollektif-Bold;
-    src: url(./fonts/kollektif/Kollektif-Bold.ttf);
+    src: url(../fonts/kollektif/Kollektif-Bold.ttf);
 }
 
 @font-face {
     font-family: Krylon;
-    src: url(./fonts/krylon/Krylon-Regular.woff);
+    src: url(../fonts/krylon/Krylon-Regular.woff);
 }
 
 .kt{
@@ -23,7 +23,7 @@
 
 .hero-section{
     height: 1000px;
-    background: url(./imgs/deuslove.jpg);
+    background: url(../imgs/deuslove.jpg);
     background-size: cover;
     background-position: center;
 }
