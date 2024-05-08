@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(./fonts/kollektif/Kollektif.ttf);
+}
+
+@font-face {
+    font-family: Kollektif-Bold;
+    src: url(./fonts/kollektif/Kollektif-Bold.ttf);
+}
+
+@font-face {
+    font-family: Krylon;
+    src: url(./fonts/krylon/Krylon-Regular.woff);
+}
+
+body{
+    background-color: #212529;
+    color: white;
+}
+
+.kt{
+    font-family: 'Kollektif-Bold', sans-serif;
+}
+
+.ht {
+    font-family: 'Krylon',sans-serif;
+}
+
+.l1x{
+    height: 1000px;
+    background-image: url(./imgs/atex.jpeg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.vx{
+    height: 700px;
+    width: 100%;
+}
+
+.x1{
+    background-image: url(./imgs/bo1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.x2{
+    background-image: url(./imgs/bo2.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.x3{
+    background-image: url(./imgs/bo3.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.x4{
+    background-image: url(./imgs/bo5.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.x5{
+    background-image: url(./imgs/bo6.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.tx{
+    box-shadow: 0 20px 25px -5px rgba(247, 246, 246, 0.1), 0 8px 10px -6px rgba(247, 246, 246, 0.1);
+}
+
+.anime {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border: 0.2px solid rgb(252, 161, 25);
+        border-radius: 6px;
+        animation: clippath 3s infinite linear;
+    }
+}
+
+@keyframes clippath {
+    0%,
+    100% {
+        clip-path: inset(0 0 95% 0);
+    }
+    25% {
+        clip-path: inset(0 95% 0 0);
+    }
+    50% {
+        clip-path: inset(95% 0 0 0);
+    }
+    75% {
+        clip-path: inset(0 0 0 95%);
+    }
+}
+
+.djk{
+    animation: mover 3s infinite linear;
+}
+
+@keyframes mover{
+    0%{
+        translate: 0px 0px;
+    }
+    25%{
+        translate: 0px 130px;
+    }
+    
+    100%{
+        translate: 0px 0px;
+    }
+}
+

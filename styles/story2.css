@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(./fonts/kollektif/Kollektif.ttf);
+}
+
+@font-face {
+    font-family: Kollektif-Bold;
+    src: url(./fonts/kollektif/Kollektif-Bold.ttf);
+}
+
+@font-face {
+    font-family: Krylon;
+    src: url(./fonts/krylon/Krylon-Regular.woff);
+}
+
+.kt{
+    font-family: 'Kollektif-Bold', sans-serif;
+}
+
+.ht {
+    font-family: 'Krylon',sans-serif;
+}
+
+.hero-section{
+    height: 1000px;
+    background: url(./imgs/preg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.delix{
+    height: 700px;
+}
+
+.muix{
+    width: 800px;
+}
+
+.xlx{
+    width: 1100px;
+}
+

@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(../fonts/kollektif/Kollektif.ttf);
+}
+
+@font-face {
+    font-family: Krylon;
+    src: url(../fonts/krylon/Krylon-Regular.woff);
+}
+
+html{
+    background-image: url(../imgs/deuslove.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+a, p{
+    font-family: 'Kollektif',sans-serif;
+}
+
+h3, h4{
+    font-family: 'Krylon',sans-serif;
+}
+
+.bg-x{
+    background-color: #22577a;
+}
+
+.chp1{
+    height: auto;
+    background: url(../imgs/deuslove.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.chp1:hover{
+    box-shadow: 0 20px 25px -5px rgba(247, 246, 246, 0.1), 0 8px 10px -6px rgba(247, 246, 246, 0.1); 
+    cursor: pointer; 
+    margin-top: -20px;
+}
+
+.chp2{
+    height: auto;
+    background: url(../imgs/preg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.chp2:hover{
+    box-shadow: 0 20px 25px -5px rgba(247, 246, 246, 0.1), 0 8px 10px -6px rgba(247, 246, 246, 0.1);  
+    cursor: pointer;
+    margin-top: -20px;
+}
+

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Kollektif;
+    src: url(./fonts/kollektif/Kollektif.ttf);
+}
+
+@font-face {
+    font-family: Krylon;
+    src: url(./fonts/krylon/Krylon-Regular.woff);
+}
+
+h2{
+    font-family: 'Krylon', sans-serif;
+}
+
+p{
+    font-family: 'Kollektif', sans-serif;
+}
+
+.blx:hover{
+    background-color: #22577a;
+    cursor: pointer;
+}
