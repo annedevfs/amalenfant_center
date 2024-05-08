@@ -1,17 +1,17 @@
 
 @font-face {
     font-family: Kollektif;
-    src: url(./fonts/kollektif/Kollektif.ttf);
+    src: url(../fonts/kollektif/Kollektif.ttf);
 }
 
 @font-face {
     font-family: Krylon;
-    src: url(./fonts/krylon/Krylon-Regular.woff);
+    src: url(../fonts/krylon/Krylon-Regular.woff);
 }
 
 
 html { 
-    background: url(./imgs/teddy.jpg) no-repeat center center fixed;
+    background: url(../imgs/teddy.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
