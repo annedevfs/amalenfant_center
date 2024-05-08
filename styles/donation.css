@@ -1,11 +1,11 @@
 @font-face {
     font-family: Kollektif;
-    src: url(./fonts/kollektif/Kollektif.ttf);
+    src: url(../fonts/kollektif/Kollektif.ttf);
 }
 
 @font-face {
     font-family: Krylon;
-    src: url(./fonts/krylon/Krylon-Regular.woff);
+    src: url(../fonts/krylon/Krylon-Regular.woff);
 }
 
 h2{
